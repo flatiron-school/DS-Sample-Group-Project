@@ -13,25 +13,25 @@ For this project we suggest the following directory structure:
 
 ```
 project-folder
+    ├── data-folder
+    ├── images-folder
+    ├── notebooks-folder
+    |   |
+    |   ├── group-member-1-notebooks-folder
+    |   |   |
+    |   |   └──group-member-1-working-notebook.ipynb
+    |   |
+    |   ├── group-member-2-notebooks-folder
+    |   |   |
+    |   |   └──group-member-2-working-notebook.ipynb
+    |   |
+    |   └── group-member-3-notebooks-folder
+    |       |
+    |       └──group-member-3-working-notebook.ipynb
     |
-    README.md
-    report-notebook.ipynb
-    presentation.pdf
-    data-folder
-    images-folder
-    notebooks-folder
-        |
-        group-member-1-notebooks-folder
-            |
-            group-member-1-working-notebook.ipynb
-        |
-        group-member-2-notebooks-folder
-            |
-            group-member-2-working-notebook.ipynb
-        |
-        group-member-3-notebooks-folder
-            |
-            group-member-3-working-notebook.ipynb
+    ├── README.md
+    ├── report-notebook.ipynb
+    └── presentation.pdf
 ```
 
 The goal here is that you are working only in your own folder. Never add/commit files that are in another member's folder!
